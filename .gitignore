@@ -1,6 +1,11 @@
 #この.gitignoreファイルは https://github.com/github/gitignore/blob/main/Unity.gitignore を参考に改変を行ったものです。
 
-＃フォルダごと無視する
+# 自動生成されるapkフォルダ内のファイルを除外
+apk/*
+!apk/*.apk
+
+
+# フォルダごと無視する
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
